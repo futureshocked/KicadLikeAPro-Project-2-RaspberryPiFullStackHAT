@@ -241,7 +241,7 @@ Text Label 3600 3400 0    50   ~ 0
 button_input
 Text Label 5700 2400 1    50   ~ 0
 3V3
-Text Label 4050 3200 1    50   ~ 0
+Text Label 4050 2900 2    50   ~ 0
 3V3
 Text Label 3050 3250 2    50   ~ 0
 3V3
@@ -264,4 +264,7 @@ Text Label 4600 3800 1    50   ~ 0
 sensor_data
 Text Label 3600 4450 0    50   ~ 0
 GND
+Connection ~ 4050 3200
+Wire Wire Line
+	4050 2900 4050 3200
 $EndSCHEMATC
