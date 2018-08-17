@@ -18,8 +18,8 @@ $Comp
 L Connector:Raspberry_Pi_2_3 J1
 U 1 1 5B761933
 P 5600 3700
-F 0 "J1" H 5600 5178 50  0000 C CNN
-F 1 "Raspberry_Pi_2_3" H 5600 5087 50  0000 C CNN
+F 0 "J1" H 6200 5100 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 6250 5000 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 5600 3700 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 5600 3700 50  0001 C CNN
 	1    5600 3700
@@ -106,17 +106,10 @@ Wire Wire Line
 Wire Wire Line
 	4050 3700 4050 3200
 Wire Wire Line
-	4050 2250 5700 2250
-Wire Wire Line
-	5700 2250 5700 2400
-Wire Wire Line
 	4450 3200 4600 3200
 Connection ~ 4600 3200
 Wire Wire Line
 	4150 3200 4050 3200
-Connection ~ 4050 3200
-Wire Wire Line
-	4050 3200 4050 2550
 Wire Wire Line
 	3550 3150 3550 3250
 Wire Wire Line
@@ -128,14 +121,9 @@ Wire Wire Line
 	3150 3150 3150 3250
 Wire Wire Line
 	3150 3250 3050 3250
-Wire Wire Line
-	3050 3250 3050 2250
-Wire Wire Line
-	3050 2250 4050 2250
 Connection ~ 3150 3250
 Wire Wire Line
 	3150 3250 3150 3350
-Connection ~ 4050 2250
 Wire Wire Line
 	3600 3550 3600 3250
 NoConn ~ 6400 2800
@@ -175,17 +163,14 @@ NoConn ~ 5800 2400
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5B771306
-P 4050 2550
-F 0 "#FLG0102" H 4050 2625 50  0001 C CNN
-F 1 "PWR_FLAG" V 4050 2678 50  0000 L CNN
-F 2 "" H 4050 2550 50  0001 C CNN
-F 3 "~" H 4050 2550 50  0001 C CNN
-	1    4050 2550
+P 3400 2350
+F 0 "#FLG0102" H 3400 2425 50  0001 C CNN
+F 1 "PWR_FLAG" V 3400 2478 50  0000 L CNN
+F 2 "" H 3400 2350 50  0001 C CNN
+F 3 "~" H 3400 2350 50  0001 C CNN
+	1    3400 2350
 	0    1    1    0   
 $EndComp
-Connection ~ 4050 2550
-Wire Wire Line
-	4050 2550 4050 2250
 $Comp
 L power:GND #PWR0101
 U 1 1 5B764A3E
@@ -265,4 +250,10 @@ Text Label 4800 2800 2    50   ~ 0
 button_input
 Text Label 3600 3400 0    50   ~ 0
 button_input
+Text Label 5700 2400 1    50   ~ 0
+3V3
+Text Label 4050 3200 1    50   ~ 0
+3V3
+Text Label 3050 3250 2    50   ~ 0
+3V3
 $EndSCHEMATC
