@@ -277,7 +277,7 @@ Wire Notes Line
 Wire Notes Line
 	2400 5000 3650 5000
 Text Notes 2400 2800 0    50   ~ 0
-Momentary button
+N1 - Momentary button
 Wire Notes Line
 	6500 3250 6500 4700
 Wire Notes Line
@@ -287,7 +287,7 @@ Wire Notes Line
 Wire Notes Line
 	7200 3250 6500 3250
 Text Notes 6550 3250 0    50   ~ 0
-Indicator LED
+N3 - Indicator LED
 Wire Notes Line
 	3700 5000 4700 5000
 Wire Notes Line
@@ -297,7 +297,7 @@ Wire Notes Line
 Wire Notes Line
 	3700 2500 3700 5000
 Text Notes 3700 2500 0    50   ~ 0
-Sensor
+N2 - Sensor
 $Comp
 L Device:R R4
 U 1 1 5B84AFC3
@@ -340,7 +340,7 @@ Wire Wire Line
 Text Label 7850 2900 2    50   ~ 0
 3V3
 Text Notes 7500 2750 0    50   ~ 0
-Power Indicator LED
+N4 - \nPower Indicator LED
 Wire Notes Line
 	7500 2750 7500 4150
 Wire Notes Line
