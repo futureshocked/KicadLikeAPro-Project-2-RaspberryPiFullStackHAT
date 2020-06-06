@@ -1,5 +1,5 @@
 # Kicad Like A Pro - Project 2 - Raspberry Pi Full Stack HAT
-This repository contains the PCB design project from the book and course "Kicad Lika a Pro"
+This repository contains the PCB design project from the book and course "[Kicad Like a Pro](https://techexplorations.com/so/kicada/)"
 
 In this project you will build on the knowledge and skill of the previous two project and design an Arduino-compatible board using, mostly, surface-mounted components. 
 
